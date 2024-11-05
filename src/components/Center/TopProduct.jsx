@@ -52,7 +52,7 @@ const TopProductsList = () => {
     <div className="sm:mt-28 mt-10 w-[84%] mx-auto " id="TopProduct">
       {/* Title */}
       <div>
-        <h2 className="text-red-600 text-sm md:text-lg lg:text-2xl font-medium cursor-default">
+        <h2 className="text-red-600 text-center font-bold text-2xl md:text-lg lg:text-2xl  cursor-default">
           دسته بندی های <span className="text-black">برتر</span>
         </h2>
       </div>

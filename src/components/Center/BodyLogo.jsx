@@ -31,10 +31,10 @@ const BodyLogo = () => {
       {/* top */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-20 py-20 border-y-2 mx-auto">
         <div className="flex flex-col justify-center mx-auto cursor-default">
-          <h5 className="text-red-600 text-lg sm:text-lg md:text-base lg:text-xl font-medium">
+          <h5 className="text-red-600 text-center sm:text-start text-2xl sm:text-xl md:text-base lg:text-xl font-medium">
             خرید مطمئن
           </h5>
-          <h5 className="text-lg sm:text-lg md:text-base lg:text-xl font-medium">
+          <h5 className="text-2xl text-center sm:text-start sm:text-xl md:text-base lg:text-xl font-medium">
             از برندهای محبوب
           </h5>
         </div>

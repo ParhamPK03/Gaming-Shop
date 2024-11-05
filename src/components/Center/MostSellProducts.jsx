@@ -72,7 +72,7 @@ const MostSellProducts = () => {
       {/* Top */}
       <div className="flex lg:flex-row items-center justify-center flex-col lg:justify-between">
         <div>
-          <h4 className="text-red-600 text-base md:font-normal font-medium md:text-lg lg:text-2xl xl:text-4xl mb-8 lg:mb-0 cursor-default">
+          <h4 className="text-red-600 text-2xl md:font-normal font-medium md:text-lg lg:text-2xl xl:text-4xl mb-8 lg:mb-0 cursor-default">
             محصولات <span className="text-black">پرفروش</span>
           </h4>
         </div>

@@ -16,7 +16,6 @@ const Home = () => {
     <>
       <div className="overflow-hidden font-iran">
         <NavbarHeader />
-
         <NavbarMain />
         <NavbarFooter />
         <ScrollToTop />

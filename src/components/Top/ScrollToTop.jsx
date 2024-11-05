@@ -26,11 +26,11 @@ const ScrollToTopButton = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-4 right-4">
+    <div className="fixed bottom-4 right-4 z-40">
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="p-3 bg-red-600 text-white rounded-full shadow-lg hover:bg-red-700 transition-colors"
+          className="p-3  bg-red-600 text-white rounded-full shadow-lg hover:bg-red-700 transition-colors"
         >
           <FaArrowTurnUp className="w-6 h-6" />
         </button>

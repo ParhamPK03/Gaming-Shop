@@ -57,7 +57,7 @@ const NavbarMain = () => {
             />
 
             <div
-              className={`fixed top-0 right-0 w-64 bg-gray-800 text-white h-full p-5 z-50 transform transition-transform duration-300 ${
+              className={`fixed top-0 right-0 w-64 bg-black/70 backdrop-blur-md text-white h-full p-5 z-50 transform transition-transform duration-300 ${
                 isOpen ? "translate-x-0" : "translate-x-full"
               } md:hidden`}
             >
@@ -66,9 +66,9 @@ const NavbarMain = () => {
                 onClick={toggleSidebar}
               />
 
-              <ul className="space-y-4">
+              <ul className="space-y-2 text-white">
                 <li>
-                  <a className="cursor-default text-lg">خانه</a>
+                  <a className="cursor-default text-xl">خانه</a>
                   <ul className="mr-1 text-sm">
                     <li
                       className="hover:bg-red-600 rounded-full duration-300 p-2"
@@ -163,16 +163,17 @@ const NavbarMain = () => {
                     </li>
                   </ul>
                 </li>
+                <br />
                 <li>
                   <Link
                     to="/aboutUs"
-                    className="hover:text-red-600 cursor-pointer mt-2"
+                    className="hover:text-red-600 cursor-pointer mt-2 text-xl"
                   >
                     درباره ما
                   </Link>
                 </li>
                 <li
-                  className="hover:text-red-600 cursor-pointer mt-4"
+                  className="hover:text-red-600 cursor-pointer mt-4 text-xl"
                   onClick={() => {
                     const target = document.getElementById("Footer");
                     if (target) {

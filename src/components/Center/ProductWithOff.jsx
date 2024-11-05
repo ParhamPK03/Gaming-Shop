@@ -17,7 +17,7 @@ const ProductWithOff = () => {
 
   // Time
   const calculateTimeLeft = () => {
-    const targetDate = new Date("2025-12-31T23:59:59").getTime();  
+    const targetDate = new Date("2025-12-31T23:59:59").getTime();
 
     const now = new Date().getTime();
     const difference = targetDate - now;
@@ -55,17 +55,17 @@ const ProductWithOff = () => {
       <div className="flex justify-center sm:justify-around gap-0 sm:gap-20">
         {/* Right */}
         <div className="pt-24">
-          <h2 className="text-red-600 text-[18px] md:text-[20px] lg:text-[30px] xl:text-[50px] font-semibold cursor-default">
+          <h2 className="text-red-600 text-center sm:text-start text-2xl font-bold md:text-[20px] lg:text-[30px] xl:text-[50px] xl:mb-7 cursor-default">
             محصولات تخفیف دار
           </h2>
-          <h2 className="text-white text-[18px] md:text-[20px] lg:text-[30px] xl:text-[50px] font-semibold cursor-default">
+          <h2 className="text-white text-center sm:text-start text-2xl font-bold md:text-[20px] lg:text-[30px] xl:text-[50px]  cursor-default">
             تا 50 درصد تخفیف
           </h2>
-          <h5 className="text-white text-[12px] lg:text-[14px] xl:text-[18px] font-medium mt-5 cursor-default">
+          <h5 className="text-white text-center sm:text-start text-[12px] lg:text-[14px] xl:text-[18px] font-medium mt-5 cursor-default">
             عجله کنید و این فرصت استثنایی را از دست ندهید
           </h5>
           <hr className="hidden lg:flex w-[450px] mt-14" />
-          <h6 className="bg-red-600 w-[100px] sm:w-[140px] md:w-[180px] h-8 lg:h-11  text-white rounded-b-xl rounded-t-sm  text-[10px] sm:text-[12px] md:text-[16px] lg:text-[18px] font-iran mt-4 flex items-center justify-center cursor-default">
+          <h6 className="bg-red-600 w-[100px] mx-auto sm:mx-0 sm:w-[140px] md:w-[180px] h-8 lg:h-11  text-white rounded-b-xl rounded-t-sm  text-[10px] sm:text-[12px] md:text-[16px] lg:text-[18px] font-iran mt-4 flex items-center justify-center cursor-default">
             زمان باقیمانده تا پایان :
           </h6>
           {/* Time */}

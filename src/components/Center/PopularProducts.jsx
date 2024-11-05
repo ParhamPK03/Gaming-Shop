@@ -13,7 +13,7 @@ const PopularProducts = () => {
     >
       {/* Top Title */}
       <div className="flex justify-between items-center mb-6">
-        <h2 className="lg:text-4xl md:text-2xl sm:text-xl text-lg text-red-600 font-medium md:font-normal cursor-default">
+        <h2 className="lg:text-4xl md:text-2xl sm:text-xl text-2xl text-red-600 font-bold md:font-normal cursor-default">
           محصولات <span className="text-black">محبوب</span>
         </h2>
         <Link to="/MostSellProducts">

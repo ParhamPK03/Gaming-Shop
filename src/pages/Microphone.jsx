@@ -19,6 +19,7 @@ import Footer from "../components/Botoom/Footer";
 import HeaderTop from "../components/Top/NavbarHeader";
 import HeaderMain from "../components/Top/NavbarMain";
 import ImageWithLoader from "../components/ImageWithLoader";
+import Logo from "../assets/Images/Main/Logo.png";
 
 const StarRating = ({ rate }) => {
   const fullStars = Math.floor(rate);
@@ -82,6 +83,17 @@ const Microphone = () => {
       <div className="w-[84%] m-auto mt-20">
         {/* Top */}
         <div className="flex lg:flex-row items-center justify-center flex-col lg:justify-between">
+          {/* Logo start */}
+          <div>
+            <Link to="/">
+              <img
+                src={Logo}
+                alt="Logo"
+                className="bg-black rounded-md w-[160px] mb-8 items-center flex md:hidden"
+              />
+            </Link>
+          </div>
+          {/* Logo end */}
           <div>
             <h4 className="text-red-600 font-medium text-2xl sm:text-3xl lg:text-2xl xl:text-3xl mb-8 lg:mb-0 cursor-default">
               میکروفون

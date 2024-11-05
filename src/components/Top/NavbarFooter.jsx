@@ -67,19 +67,39 @@ const NavbarFooter = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <ImageWithLoader src={Adver6} alt="Adver 6" />
+            <ImageWithLoader
+              src={Adver5}
+              alt="Adver 5"
+              className="h-[240px] sm:h-auto"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <ImageWithLoader src={Adver5} alt="Adver 5" />
+            <ImageWithLoader
+              src={Adver6}
+              alt="Adver 6"
+              className="h-[240px] sm:h-auto"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <ImageWithLoader src={Adverimg1} alt="Adver 1" />
+            <ImageWithLoader
+              src={Adverimg1}
+              alt="Adver 1"
+              className="h-[240px] sm:h-auto"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <ImageWithLoader src={Adverimg2} alt="Adver 2" />
+            <ImageWithLoader
+              src={Adverimg2}
+              alt="Adver 2"
+              className="h-[240px] sm:h-auto"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <ImageWithLoader src={Adverimg3} alt="Adver 3" />
+            <ImageWithLoader
+              src={Adverimg3}
+              alt="Adver 3"
+              className="h-[240px] sm:h-auto"
+            />
           </SwiperSlide>
         </Swiper>
 

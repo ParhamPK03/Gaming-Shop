@@ -3,7 +3,7 @@ import Footer from "../components/Botoom/Footer";
 import HeaderTop from "../components/Top/NavbarHeader";
 import HeaderMain from "../components/Top/NavbarMain";
 import { MostSellProductInfos } from "../assets/assets";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   MdOutlineStarPurple500,
   MdOutlineStarHalf,
@@ -17,6 +17,7 @@ import { useAuth } from "../Context/AuthContext";
 import { useLikedProducts } from "../Context/LikedProductsContext";
 import { CartContext } from "../Context/CartContext";
 import ImageWithLoader from "../components/ImageWithLoader";
+import Logo from "../assets/Images/Main/Logo.png";
 
 // Star Rating component
 const StarRating = ({ rate }) => {
@@ -68,7 +69,19 @@ const Auction = () => {
       <HeaderMain />
 
       {/* Main Section */}
+
       <div className="w-[84%] m-auto mt-20">
+        {/* Logo start */}
+        <div className="items-center justify-center flex">
+          <Link to="/">
+            <img
+              src={Logo}
+              alt="Logo"
+              className="bg-black rounded-md w-[180px] mb-8 items-center flex md:hidden"
+            />
+          </Link>
+        </div>
+        {/* Logo end */}
         <h4 className="text-red-600 font-medium text-xl sm:text-3xl text-center lg:text-2xl xl:text-3xl mb-8 lg:mb-0 cursor-default">
           محصولات با تخفیف :
         </h4>
